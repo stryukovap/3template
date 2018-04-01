@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MyriadPro-Regular';
-    src: url("fonts/8143.otf");
+    src: url("../fonts/8143.otf");
 }
 
 body {
@@ -26,7 +26,7 @@ body {
     text-decoration: none;
     font-size: 42.3px;
     color: #000000;
-    background-image: url("img/shape1.png");
+    background-image: url("../img/shape1.png");
     background-repeat: no-repeat;
     background-position: center left;
     background-size: 44px 44px;
@@ -64,19 +64,28 @@ body {
     border-bottom: 3px solid transparent;
 }
 
-.current {
+.main_navigation_item_link:hover {
     border-bottom: 3px solid #5094f2;
 }
+
+/* .current {
+    border-bottom: 3px solid #5094f2;
+} */
 
 /* banner */
 
 .banner {
-    outline: 1px solid lime;
+    /* outline: 1px solid lime; */
     background-color: #4a4a47;
 }
 
+.banner_wrapper {
+    /* outline: 1px solid yellow; */
+    color: #ffffff;
+}
+
 .banner_item {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: inline-block;
     margin-left: 177px;
     margin-top: 38px;
@@ -84,8 +93,9 @@ body {
 }
 
 .banner_slogan {
-    outline: 1px solid purple;
+    /* outline: 1px solid purple; */
     display: inline-block;
+    vertical-align: top;
     margin-left: 104px;
     margin-top: 153px;
     /* margin-bottom: 134px; */
@@ -94,16 +104,16 @@ body {
 .banner_slogan_article {
     font-weight: normal;
     margin: 0;
-    font-weight: 400;
     line-height: 44.42px;
     font-size: 42px;
-    outline: 1px solid lightpink;
+    /* outline: 1px solid lightpink; */
 }
 
 .banner_slogan_text {
     font-size: 26px;
     line-height: 44.42px;
-    outline: 1px solid lightseagreen;
+    font-weight: normal;
+    /* outline: 1px solid lightseagreen; */
     margin: 0;
     padding: 0;
     margin-bottom: 50px;
@@ -113,20 +123,75 @@ body {
     color: #ffffff;
     font-size: 22px;
     line-height: 44.42px;
+    font-weight: normal;
     text-decoration: none;
-    outline: 1px solid pink;
+    /* outline: 1px solid pink; */
     margin: 0;
     padding: 0;
     margin-left: 12px;
     padding: 12px 11px 9px 44px;
     background-color: #5094f2;
+    background-image: url("../img/shape-2.png");
+background-repeat: no-repeat;
+background-position: 9px 11px;
+border-radius: 3px;
+
+
 }
 
-/* .banner_link_button_wrapper {
-    margin-top: 36px;
-} */
+/* features */
 
-.banner_wrapper {
-    outline: 1px solid yellow;
-    color: #ffffff;
+.features container {
+    outline: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+.features_list {
+    outline: 1px solid blue;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features_item {
+    outline: 1px solid green;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 248px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.features_item:nth-child(1) {
+    margin-left: 143px;
+}
+
+.features_item:nth-child(2) {
+    margin-left: 134px;
+}
+
+.features_item:nth-child(3) {
+    margin-left: 93px;
+}
+
+.features_item_article {
+    outline: 1px solid limegreen;
+    margin: 0;
+    padding: 0;
+    color: #5094f2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 44.42px;
+    padding-top: 214px;
+}
+
+.features_item_text {
+    outline: 1px solid pink;
+    margin: 0;
+    padding: 0;
+    color: #909090;
+    font-size: 14px;
+    font-weight: 400;
 }
