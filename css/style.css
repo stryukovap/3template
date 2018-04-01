@@ -13,6 +13,8 @@ body {
     margin: 0 auto;
 }
 
+/* header  */
+
 .main_header {
     min-width: 89px;
     width: 100%;
@@ -66,7 +68,7 @@ body {
     border-bottom: 3px solid #5094f2;
 }
 
-/* .container{outline: 1px solid green;} */
+/* banner */
 
 .banner {
     outline: 1px solid lime;
@@ -76,7 +78,6 @@ body {
 .banner_item {
     outline: 1px solid red;
     display: inline-block;
-    color: #ffffff;
     margin-left: 177px;
     margin-top: 38px;
     margin-bottom: 16px;
@@ -105,9 +106,11 @@ body {
     outline: 1px solid lightseagreen;
     margin: 0;
     padding: 0;
+    margin-bottom: 50px;
 }
 
 .banner_link_button {
+    color: #ffffff;
     font-size: 22px;
     line-height: 44.42px;
     text-decoration: none;
@@ -116,12 +119,14 @@ body {
     padding: 0;
     margin-left: 12px;
     padding: 12px 11px 9px 44px;
+    background-color: #5094f2;
+}
 
-}
-.banner_link_button_wrapper{
+/* .banner_link_button_wrapper {
     margin-top: 36px;
-}
+} */
 
 .banner_wrapper {
     outline: 1px solid yellow;
+    color: #ffffff;
 }
