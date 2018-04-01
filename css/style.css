@@ -140,13 +140,13 @@ body {
 /* features */
 
 .features container {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin: 0;
     padding: 0;
 }
 
 .features_list {
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -154,7 +154,7 @@ body {
 }
 
 .features_item {
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -185,7 +185,7 @@ body {
 }
 
 .features_item_article {
-    outline: 1px solid limegreen;
+    /* outline: 1px solid limegreen; */
     margin: 0;
     padding: 0;
     color: #5094f2;
@@ -196,10 +196,92 @@ body {
 }
 
 .features_item_text {
-    outline: 1px solid pink;
+    /* outline: 1px solid pink; */
     margin: 0;
     padding: 0;
     color: #909090;
     font-size: 14px;
     font-weight: 400;
+}
+
+/* shopping_cart */
+
+.shopping_cart {
+    /* outline: 1px solid pink; */
+    margin-top: 94px;
+}
+
+.shopping_cart_article {
+    /* outline: 1px solid limegreen; */
+    margin: 0;
+    padding: 0;
+    color: #6f7173;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 44.42px;
+    display: inline-block;
+    margin-left: 168px;
+}
+
+.shopping_cart_item {
+    /* outline: 1px solid red; */
+    display: inline-block;
+    width: 371px;
+    margin: 35px 82px 50px 159px;
+    padding: 0;
+}
+
+.shopping_cart_item_img {
+    /* outline: 1px solid blue; */
+    margin: 0;
+    padding: 0;
+}
+
+.product_info {
+    /* outline: 1px solid green; */
+    display: inline-block;
+    width: 541px;
+    margin: 0;
+    padding: 0;
+    /* padding-right: 187px; */
+}
+
+.product_info_article {
+    /* outline: 1px solid blueviolet; */
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #6f7173;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 44.42px;
+}
+
+.product_info_text {
+    /* outline: 1px solid lightseagreen; */
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-top: 36px;
+    color: #909090;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.main_footer {
+    min-height: 93px;
+    width: 100%;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+.footer_copyright{
+    color: #909090;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 36px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 23px;
 }
