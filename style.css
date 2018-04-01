@@ -1,6 +1,7 @@
-/* font-family: 'Source Sans Pro', sans-serif; */
-
-/* font-family: 'MyriadPro-Regular'; */
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url("fonts/8143.otf");
+}
 
 body {
     font-family: 'MyriadPro-Regular';
@@ -15,82 +16,68 @@ body {
 .main_header {
     min-width: 89px;
     width: 100%;
-    background-color: lightgreen;
-    outline: 1px solid green;
+    /* background-color: lightgreen; */
+    /* outline: 1px solid green; */
     margin: 0;
     padding: 0;
 }
 
 .main_header_logo {
-    outline: 1px solid blue;
-    margin: 0;
-    padding: 0;
-    min-width: 89px;
-    width: 350px;
+    /* outline: 1px solid blue; */
+    text-decoration: none;
+    font-size: 42.3px;
+    color: #000000;
+    background-image: url("img/shape1.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 44px 44px;
+    margin: 0 0 0 141px;
+    padding: 0 0 0 60px;
 }
 
 .main_navigation {
     display: flex;
     align-items: center;
-    outline: 1px solid pink;
-    /* align-self: flex-end; */
-    /* justify-content: flex-end; */
-    /* flex-direction: column; */
+    /* outline: 1px solid pink; */
+    justify-content: space-between;
 }
-/* .main_navigation_wrapper .container_wrapper{
-    display:flex;
-} */
+
 .main_navigation_list {
-    display:flex;
+    display: flex;
     align-items: center;
-    
-    /* min-width: 625px; */
     list-style: none;
-    outline: 1px solid yellow;
-    min-height: 89px;
+    /* outline: 1px solid yellow; */
+    /* min-height: 89px; */
     margin: 0;
-    padding: 0;
+    padding: 0 142px 0 0;
 }
 
 .main_navigation_item {
-    outline: 1px solid red;
-    margin: 0;
+    /* outline: 1px solid red; */
+    margin: 0 35px 0 0;
     padding: 0;
 }
 
 .main_navigation_item_link {
-    outline: 1px solid purple;
+    /* outline: 1px solid purple; */
     margin: 0;
     padding: 0;
-}
-
-/* .main_header_logo {
-    text-decoration: none;
-    font-size: 42.3px;
-    color: #000000;
-    display: inline-block;
-}
-
-.main_navigation_list {
-    list-style: none;
-    float: right;
-    margin: 0;
-    
-}
-.main_navigation_item{
-    display: inline-block;
-}
-.main_navigation_item_link {
     text-decoration: none;
     color: #6c6c6c;
     font-size: 20.3px;
-    padding: 36px 25px;
-} */
+    padding: 37px 0 33px 0;
+    display: block;
+    border-bottom: 3px solid transparent;
+}
+
+.current {
+    border-bottom: 3px solid #5094f2;
+}
 
 .banner {
     background-color: #627488;
-    background-image: url(img/banner.png);
-    background-repeat: repeat;
+    background-image: url("img/banner.png");
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
