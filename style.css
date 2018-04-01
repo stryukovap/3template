@@ -16,14 +16,11 @@ body {
 .main_header {
     min-width: 89px;
     width: 100%;
-    /* background-color: lightgreen; */
-    /* outline: 1px solid green; */
     margin: 0;
     padding: 0;
 }
 
 .main_header_logo {
-    /* outline: 1px solid blue; */
     text-decoration: none;
     font-size: 42.3px;
     color: #000000;
@@ -38,7 +35,6 @@ body {
 .main_navigation {
     display: flex;
     align-items: center;
-    /* outline: 1px solid pink; */
     justify-content: space-between;
 }
 
@@ -46,20 +42,16 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    /* outline: 1px solid yellow; */
-    /* min-height: 89px; */
     margin: 0;
     padding: 0 142px 0 0;
 }
 
 .main_navigation_item {
-    /* outline: 1px solid red; */
     margin: 0 35px 0 0;
     padding: 0;
 }
 
 .main_navigation_item_link {
-    /* outline: 1px solid purple; */
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -79,10 +71,44 @@ body {
     background-image: url("img/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
+    color: #ffffff;
+    min-height: 579px;
+    width: 100%;
 }
-
+.banner_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .banner_item {
     width: 345px;
     height: 436px;
-    margin: 38px 728px 16px 177px;
+}
+
+.banner_slogan {
+    outline: 1px solid red;
+}
+
+.banner_slogan_article {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid green;
+}
+
+.banner_item {
+    display: inline;
+    outline: 1px solid yellow;
+}
+
+.banner_slogan_text {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid blue;
+}
+
+.banner_link_button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5094f2;
+    outline: 1px solid pink;
 }
