@@ -11,30 +11,40 @@ body {
     width: 1250px;
     margin: 0 auto;
 }
-.main_header_logo{
+.main_header{
+    min-width: 89px;
+}
+/* .main_header_logo {
     text-decoration: none;
     font-size: 42.3px;
     color: #000000;
+    display: inline-block;
 }
-.main_navigation_list{
-    /* float: right; */
+
+.main_navigation_list {
     list-style: none;
-    display: inline;
+    float: right;
+    margin: 0;
+    
 }
-.main_navigation_item_link{
-    text-decoration:none;
+.main_navigation_item{
+    display: inline-block;
+}
+.main_navigation_item_link {
+    text-decoration: none;
     color: #6c6c6c;
     font-size: 20.3px;
     padding: 36px 25px;
+} */
 
-}
 .banner {
     background-color: #627488;
     background-image: url(img/banner.png);
     background-repeat: repeat;
     background-size: cover;
 }
-.banner_item{
+
+.banner_item {
     width: 345px;
     height: 436px;
     margin: 38px 728px 16px 177px;
