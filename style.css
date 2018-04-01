@@ -72,43 +72,56 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
-    min-height: 579px;
+    height: 579px;
     width: 100%;
 }
 .banner_wrapper{
+    outline: 1px solid green;
     display: flex;
+    /* align-items: flex-start; */
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .banner_item {
-    width: 345px;
-    height: 436px;
+    /* width: 345px; */
+    /* height: 436px; */
+    margin: 38px 0 16px 177px;
+    display: inline;
+    outline: 1px solid yellow;
 }
 
 .banner_slogan {
     outline: 1px solid red;
+    margin: 0 104px 232px 211px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
 
 .banner_slogan_article {
     margin: 0;
     padding: 0;
     outline: 1px solid green;
-}
-
-.banner_item {
-    display: inline;
-    outline: 1px solid yellow;
+    font-size: 42px;
+    font-weight: normal;
+    /* line-height: 1.05; */
 }
 
 .banner_slogan_text {
     margin: 0;
     padding: 0;
     outline: 1px solid blue;
+    font-size: 26px;
+    line-height: 44.42px;
 }
 
 .banner_link_button {
     text-decoration: none;
     color: #ffffff;
     background-color: #5094f2;
+    /* background-size: 172px 41px; */
     outline: 1px solid pink;
+    width: 172px;
+    height: 41px;
 }
