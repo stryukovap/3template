@@ -66,62 +66,62 @@ body {
     border-bottom: 3px solid #5094f2;
 }
 
+/* .container{outline: 1px solid green;} */
+
 .banner {
-    background-color: #627488;
-    background-image: url("img/banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #ffffff;
-    height: 579px;
-    width: 100%;
+    outline: 1px solid lime;
+    background-color: #4a4a47;
 }
-.banner_wrapper{
-    outline: 1px solid green;
-    display: flex;
-    /* align-items: flex-start; */
-    align-items: center;
-    /* justify-content: space-between; */
-}
+
 .banner_item {
-    /* width: 345px; */
-    /* height: 436px; */
-    margin: 38px 0 16px 177px;
-    display: inline;
-    outline: 1px solid yellow;
+    outline: 1px solid red;
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 177px;
+    margin-top: 38px;
+    margin-bottom: 16px;
 }
 
 .banner_slogan {
-    outline: 1px solid red;
-    margin: 0 104px 232px 211px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    /* justify-content: space-between; */
+    outline: 1px solid purple;
+    display: inline-block;
+    margin-left: 104px;
+    margin-top: 153px;
+    /* margin-bottom: 134px; */
 }
 
 .banner_slogan_article {
-    margin: 0;
-    padding: 0;
-    outline: 1px solid green;
-    font-size: 42px;
     font-weight: normal;
-    /* line-height: 1.05; */
+    margin: 0;
+    font-weight: 400;
+    line-height: 44.42px;
+    font-size: 42px;
+    outline: 1px solid lightpink;
 }
 
 .banner_slogan_text {
-    margin: 0;
-    padding: 0;
-    outline: 1px solid blue;
     font-size: 26px;
     line-height: 44.42px;
+    outline: 1px solid lightseagreen;
+    margin: 0;
+    padding: 0;
 }
 
 .banner_link_button {
+    font-size: 22px;
+    line-height: 44.42px;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #5094f2;
-    /* background-size: 172px 41px; */
     outline: 1px solid pink;
-    width: 172px;
-    height: 41px;
+    margin: 0;
+    padding: 0;
+    margin-left: 12px;
+    padding: 12px 11px 9px 44px;
+
+}
+.banner_link_button_wrapper{
+    margin-top: 36px;
+}
+
+.banner_wrapper {
+    outline: 1px solid yellow;
 }
