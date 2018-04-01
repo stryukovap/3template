@@ -1,5 +1,41 @@
 /* font-family: 'Source Sans Pro', sans-serif; */
+
 /* font-family: 'MyriadPro-Regular'; */
-body{
+
+body {
     font-family: 'MyriadPro-Regular';
+    margin: 0;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+.main_header_logo{
+    text-decoration: none;
+    font-size: 42.3px;
+    color: #000000;
+}
+.main_navigation_list{
+    /* float: right; */
+    list-style: none;
+    display: inline;
+}
+.main_navigation_item_link{
+    text-decoration:none;
+    color: #6c6c6c;
+    font-size: 20.3px;
+    padding: 36px 25px;
+
+}
+.banner {
+    background-color: #627488;
+    background-image: url(img/banner.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.banner_item{
+    width: 345px;
+    height: 436px;
+    margin: 38px 728px 16px 177px;
 }
