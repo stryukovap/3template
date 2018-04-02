@@ -9,7 +9,8 @@ body {
 }
 
 .container {
-    max-width: 973px;
+    outline: 1px dotted blue;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -27,7 +28,8 @@ body {
     height: 44px;
     margin-right: 15px;
 }
-.main_header_logo_link{
+
+.main_header_logo_link {
     outline: 1px solid blue;
     text-decoration: none;
     font-size: 42.3px;
@@ -35,6 +37,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-left: 25px;
 }
 
 .main_navigation {
@@ -82,11 +85,12 @@ body {
 /* banner */
 
 .banner {
-    outline: 1px solid lime;
+    outline: 1px solid red;
     background-color: #4a4a47;
     background-image: url("../img/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
+    color: #ffffff;
 }
 
 .banner_wrapper {
@@ -97,7 +101,7 @@ body {
 .banner_item {
     outline: 1px solid red;
     display: inline-block;
-    margin-left: 177px;
+    margin-left: 50px;
     margin-top: 38px;
     margin-bottom: 16px;
 }
@@ -126,7 +130,7 @@ body {
     outline: 1px solid lightseagreen;
     margin: 0;
     padding: 0;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .banner_link_button {
@@ -139,12 +143,16 @@ body {
     margin: 0;
     padding: 0;
     margin-left: 12px;
-    padding: 12px 11px 9px 44px;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 0 11px 0 44px;
     background-color: #5094f2;
     background-image: url("../img/shape-2.png");
     background-repeat: no-repeat;
-    background-position: 9px 11px;
-    border-radius: 3px;
+    background-position: center left;
+    background-position-x: 11px;
+    max-width: 172px;
+    border-radius: 5px;
 }
 
 /* features */
@@ -285,7 +293,8 @@ body {
     border-top: 1px solid #000;
     text-align: center;
 }
-.footer_copyright{
+
+.footer_copyright {
     color: #909090;
     font-size: 15px;
     font-weight: 400;
