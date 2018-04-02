@@ -61,7 +61,6 @@ body {
     text-decoration: none;
     color: #6c6c6c;
     font-size: 20.3px;
-    padding: 0;
     padding: 37px 0 33px 0;
     display: block;
     border-bottom: 3px solid transparent;
@@ -91,16 +90,13 @@ body {
 
 .banner_item {
     display: inline-block;
-    margin-left: 50px;
-    margin-top: 38px;
-    margin-bottom: 16px;
+    margin: 38px 0 16px 50px;
 }
 
 .banner_slogan {
     display: inline-block;
     vertical-align: top;
-    margin-left: 104px;
-    margin-top: 153px;
+    margin: 153px 0 0 104px;
 }
 
 .banner_slogan_article {
@@ -124,10 +120,7 @@ body {
     line-height: 44.42px;
     font-weight: normal;
     text-decoration: none;
-    margin: 0;
-    margin-top: 50px;
-    margin-left: 12px;
-    padding: 0;
+    margin: 50px 0 0 12px;
     padding: 0 11px 0 44px;
     display: inline-block;
     background-color: #5094f2;
@@ -135,7 +128,6 @@ body {
     background-repeat: no-repeat;
     background-position: center left;
     background-position-x: 11px;
-    max-width: 172px;
     border-radius: 5px;
 }
 
@@ -154,12 +146,10 @@ body {
 
 .features_item {
     margin: 0;
-    padding: 0;
-    display: inline-block;
+    padding: 214px 0 0 0;
     max-width: 248px;
     vertical-align: top;
     text-align: center;
-    padding-top: 214px;
 }
 
 .features_item:nth-child(1) {
@@ -204,22 +194,20 @@ body {
 }
 
 .shopping_cart_article {
-    margin: 0;
+    margin: 0 0 0 46px;
     padding: 0;
     color: #6f7173;
     font-size: 42px;
     font-weight: 400;
     line-height: 44.42px;
-    margin-left: 46px;
 }
 
 .shopping_cart_wrapper {
     margin: 0;
-    padding: 0;
+    padding: 16px 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 35px;
 }
 
 .shopping_cart_item_img {
@@ -256,9 +244,7 @@ body {
 
 .main_footer {
     min-height: 93px;
-    width: 100%;
     border-top: 1px solid #e5e5e5;
-    text-align: center;
 }
 
 .footer_copyright {
@@ -269,5 +255,5 @@ body {
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
-    margin-top: 23px;
+    margin: 23px 0 0 237px;
 }
