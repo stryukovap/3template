@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-    outline: 1px dotted blue;
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -23,14 +22,12 @@ body {
 }
 
 .main_header_logo_img {
-    outline: 1px solid green;
     width: 44px;
     height: 44px;
     margin-right: 15px;
 }
 
 .main_header_logo_link {
-    outline: 1px solid blue;
     text-decoration: none;
     font-size: 42.3px;
     color: #000000;
@@ -41,14 +38,12 @@ body {
 }
 
 .main_navigation {
-    outline: 1px solid blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .main_navigation_list {
-    outline: 1px solid red;
     display: flex;
     align-items: center;
     list-style: none;
@@ -57,13 +52,11 @@ body {
 }
 
 .main_navigation_item {
-    outline: 1px solid green;
     margin: 0 35px 0 0;
     padding: 0;
 }
 
 .main_navigation_item_link {
-    outline: 1px solid purple;
     margin: 0;
     text-decoration: none;
     color: #6c6c6c;
@@ -85,7 +78,6 @@ body {
 /* banner */
 
 .banner {
-    outline: 1px solid red;
     background-color: #4a4a47;
     background-image: url("../img/banner.png");
     background-repeat: no-repeat;
@@ -94,12 +86,10 @@ body {
 }
 
 .banner_wrapper {
-    outline: 1px solid yellow;
     color: #ffffff;
 }
 
 .banner_item {
-    outline: 1px solid red;
     display: inline-block;
     margin-left: 50px;
     margin-top: 38px;
@@ -107,7 +97,6 @@ body {
 }
 
 .banner_slogan {
-    outline: 1px solid purple;
     display: inline-block;
     vertical-align: top;
     margin-left: 104px;
@@ -119,14 +108,12 @@ body {
     margin: 0;
     line-height: 44.42px;
     font-size: 42px;
-    outline: 1px solid lightpink;
 }
 
 .banner_slogan_text {
     font-size: 26px;
     line-height: 44.42px;
     font-weight: normal;
-    outline: 1px solid lightseagreen;
     margin: 0;
     padding: 0;
 }
@@ -137,7 +124,6 @@ body {
     line-height: 44.42px;
     font-weight: normal;
     text-decoration: none;
-    outline: 1px solid pink;
     margin: 0;
     margin-top: 50px;
     margin-left: 12px;
@@ -156,7 +142,6 @@ body {
 /* features */
 
 .features_list {
-    outline: 1px solid blue;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -168,7 +153,6 @@ body {
 }
 
 .features_item {
-    outline: 1px solid green;
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -197,7 +181,6 @@ body {
 }
 
 .features_item_article {
-    outline: 1px solid limegreen;
     margin: 0;
     padding: 0;
     color: #5094f2;
@@ -207,7 +190,6 @@ body {
 }
 
 .features_item_text {
-    outline: 1px solid pink;
     margin: 0;
     padding: 0;
     color: #909090;
@@ -218,12 +200,10 @@ body {
 /* shopping_cart */
 
 .shopping_cart {
-    outline: 1px solid blue;
     margin-top: 94px;
 }
 
 .shopping_cart_article {
-    outline: 1px solid limegreen;
     margin: 0;
     padding: 0;
     color: #6f7173;
@@ -234,7 +214,6 @@ body {
 }
 
 .shopping_cart_wrapper {
-    outline: 1px solid red;
     margin: 0;
     padding: 0;
     display: flex;
@@ -244,19 +223,16 @@ body {
 }
 
 .shopping_cart_item_img {
-    outline: 1px solid blue;
     margin: 0;
     padding: 0;
 }
 
 .product_info {
-    outline: 1px solid green;
     margin: 0;
     padding: 0;
 }
 
 .product_info_article {
-    outline: 1px solid blueviolet;
     margin: 0;
     padding: 0;
     color: #6f7173;
@@ -266,7 +242,6 @@ body {
 }
 
 .product_info_text {
-    outline: 1px solid lightseagreen;
     margin: 0;
     padding: 0;
     max-width: 450px;
@@ -287,7 +262,6 @@ body {
 }
 
 .footer_copyright {
-    outline: 1px solid blue;
     color: #909090;
     font-size: 15px;
     font-weight: 400;
