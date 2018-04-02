@@ -6,6 +6,7 @@
 body {
     font-family: 'MyriadPro-Regular', Arial, sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -17,7 +18,6 @@ body {
 /* header  */
 
 .main_header {
-    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -65,10 +65,10 @@ body {
 .main_navigation_item_link {
     outline: 1px solid purple;
     margin: 0;
-    padding: 0;
     text-decoration: none;
     color: #6c6c6c;
     font-size: 20.3px;
+    padding: 0;
     padding: 37px 0 33px 0;
     display: block;
     border-bottom: 3px solid transparent;
@@ -112,7 +112,6 @@ body {
     vertical-align: top;
     margin-left: 104px;
     margin-top: 153px;
-    /* margin-bottom: 134px; */
 }
 
 .banner_slogan_article {
@@ -130,7 +129,6 @@ body {
     outline: 1px solid lightseagreen;
     margin: 0;
     padding: 0;
-    /* margin-bottom: 50px; */
 }
 
 .banner_link_button {
@@ -141,11 +139,11 @@ body {
     text-decoration: none;
     outline: 1px solid pink;
     margin: 0;
-    padding: 0;
-    margin-left: 12px;
-    display: inline-block;
     margin-top: 50px;
+    margin-left: 12px;
+    padding: 0;
     padding: 0 11px 0 44px;
+    display: inline-block;
     background-color: #5094f2;
     background-image: url("../img/shape-2.png");
     background-repeat: no-repeat;
@@ -157,18 +155,16 @@ body {
 
 /* features */
 
-.features .container {
-    outline: 1px solid red;
-    margin: 0;
-    padding: 0;
-}
-
 .features_list {
     outline: 1px solid blue;
     list-style: none;
     margin: 0;
     padding: 0;
     margin-top: 57px;
+    padding: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .features_item {
@@ -176,27 +172,25 @@ body {
     margin: 0;
     padding: 0;
     display: inline-block;
-    width: 248px;
+    max-width: 248px;
     vertical-align: top;
     text-align: center;
+    padding-top: 214px;
 }
 
 .features_item:nth-child(1) {
-    margin-left: 143px;
     background-image: url("../img/pen_blue.png");
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 .features_item:nth-child(2) {
-    margin-left: 134px;
     background-image: url("../img/pc_red.png");
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 .features_item:nth-child(3) {
-    margin-left: 93px;
     background-image: url("../img/cart_yellow.png");
     background-repeat: no-repeat;
     background-position: top center;
@@ -210,7 +204,6 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 44.42px;
-    padding-top: 214px;
 }
 
 .features_item_text {
@@ -225,7 +218,7 @@ body {
 /* shopping_cart */
 
 .shopping_cart {
-    outline: 1px solid pink;
+    outline: 1px solid blue;
     margin-top: 94px;
 }
 
@@ -237,16 +230,17 @@ body {
     font-size: 42px;
     font-weight: 400;
     line-height: 44.42px;
-    display: inline-block;
-    margin-left: 168px;
+    margin-left: 46px;
 }
 
-.shopping_cart_item {
+.shopping_cart_wrapper {
     outline: 1px solid red;
-    display: inline-block;
-    width: 371px;
-    margin: 35px 82px 50px 159px;
+    margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 35px;
 }
 
 .shopping_cart_item_img {
@@ -256,17 +250,13 @@ body {
 }
 
 .product_info {
-    /* outline: 1px solid green; */
-    display: inline-block;
-    width: 541px;
+    outline: 1px solid green;
     margin: 0;
     padding: 0;
-    /* padding-right: 187px; */
 }
 
 .product_info_article {
-    /* outline: 1px solid blueviolet; */
-    display: inline-block;
+    outline: 1px solid blueviolet;
     margin: 0;
     padding: 0;
     color: #6f7173;
@@ -276,25 +266,28 @@ body {
 }
 
 .product_info_text {
-    /* outline: 1px solid lightseagreen; */
-    display: inline-block;
+    outline: 1px solid lightseagreen;
     margin: 0;
     padding: 0;
-    padding-top: 36px;
+    max-width: 450px;
+    margin-top: 36px;
     color: #909090;
     font-size: 15px;
     font-weight: 400;
     line-height: 36px;
 }
 
+/* footer */
+
 .main_footer {
     min-height: 93px;
     width: 100%;
-    border-top: 1px solid #000;
+    border-top: 1px solid #e5e5e5;
     text-align: center;
 }
 
 .footer_copyright {
+    outline: 1px solid blue;
     color: #909090;
     font-size: 15px;
     font-weight: 400;
