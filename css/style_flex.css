@@ -153,19 +153,19 @@ body {
 }
 
 .features_item:nth-child(1) {
-    background-image: url("../img/pen_blue.png");
+    background-image: url("../img/pen.png");
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 .features_item:nth-child(2) {
-    background-image: url("../img/pc_red.png");
+    background-image: url("../img/pc.png");
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 .features_item:nth-child(3) {
-    background-image: url("../img/cart_yellow.png");
+    background-image: url("../img/cart_mini.png");
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -176,7 +176,7 @@ body {
     color: #5094f2;
     font-size: 20px;
     font-weight: 400;
-    line-height: 44.42px;
+    line-height: 44px;
 }
 
 .features_item_text {

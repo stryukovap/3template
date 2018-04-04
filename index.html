@@ -11,23 +11,17 @@
 <body>
     <header class="main_header">
         <div class="container">
-            <nav class="main_navigation">
-                <a href="#" class="main_header_logo_link">
-                    <img src="img/shape1.png" alt="logo" class="main_header_logo_img">Prechu</a>
-                <ul class="main_navigation_list">
-                    <li class="main_navigation_item">
-                        <a href="#" class="main_navigation_item_link">Home</a>
-                    </li>
-                    <li class="main_navigation_item">
-                        <a class="main_navigation_item_link current">Products</a>
-                    </li>
-                    <li class="main_navigation_item">
-                        <a href="#" class="main_navigation_item_link">Services</a>
-                    </li>
-                    <li class="main_navigation_item">
-                        <a href="#" class="main_navigation_item_link">Contact</a>
-                    </li>
-                </ul>
+            <nav class="main_navigation clearfix">
+                <div class="main_header_logo">
+                    <div class="main_header_logo_img"></div>
+                    <span class="main_header_logo_text">Prechu</span>
+                </div>
+                <div class="main_navigation_list">
+                    <a href="#" class="main_navigation_item_link">Home</a>
+                    <a class="main_navigation_item_link current">Products</a>
+                    <a href="#" class="main_navigation_item_link">Services</a>
+                    <a href="#" class="main_navigation_item_link">Contact</a>
+                </div>
             </nav>
         </div>
     </header>
@@ -36,28 +30,32 @@
             <div class="container">
                 <div class="banner_item">
                     <img src="img/iphone.png" alt="lorem" class="banner_item_img">
-                </div>
-                <div class="banner_slogan">
-                    <div class="banner_slogan_article">Lorem Ipsum is simply</div>
-                    <div class="banner_slogan_text">
-                        dummy text of the
-                        <br> printing &amp; typesetting
+                </div><!-- 0
+                --><div class="banner_slogan">
+                    <div class="banner_slogan_wrapper">
+                        <div class="banner_slogan_article">Lorem Ipsum is simply</div>
+                        <p class="banner_slogan_text">
+                            dummy text of the printing &amp; typesetting
+                        </p>
+                        <a href="#" class="banner_link_button">Sign up now</a>
                     </div>
-                    <a href="#" class="banner_link_button">Sign up now</a>
                 </div>
             </div>
         </div>
         <section class="features container">
-            <ul class="features_list">
+            <ul class="features_list clearfix">
                 <li class="features_item">
+                    <div class="features_item_img"></div>
                     <h2 class="features_item_article">Contrary to popular</h2>
                     <p class="features_item_text">Lorem Ipsum is not simply random text. It has roots in a piece</p>
                 </li>
                 <li class="features_item">
+                    <div class="features_item_img"></div>
                     <h2 class="features_item_article">Contrary to popular</h2>
                     <p class="features_item_text">Lorem Ipsum is not simply random text. It has roots in a piece</p>
                 </li>
                 <li class="features_item">
+                    <div class="features_item_img"></div>
                     <h2 class="features_item_article">Contrary to popular</h2>
                     <p class="features_item_text">Lorem Ipsum is not simply random text. It has roots in a piece</p>
                 </li>
@@ -65,11 +63,13 @@
         </section>
         <section class="shopping_cart container">
             <h2 class="shopping_cart_article">The Shopping cart</h2>
-            <div class="shopping_cart_wrapper">
-                <img src="img/cart.png" alt="shopping cart item img" class="shopping_cart_item_img">
-                <div class="product_info">
-                    <h3 class="product_info_article">Some Bullet text here</h3>
-                    <p class="product_info_text">
+            <div class="shopping_cart_wrapper clearfix">
+                <div class="shopping_cart_wrapper_img">
+                    <img src="img/cart.png" alt="shopping cart item img" class="shopping_cart_item_img">
+                </div>
+                <div class="shopping_cart_product_info">
+                    <h3 class="shopping_cart_product_info_article">Some Bullet text here</h3>
+                    <p class="shopping_cart_product_info_text">
                         Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum has been the industry's standard dummy text
                         ever When an unknown printer took a galley of type and scrambled It to make a type specimen book.
                         It has survived not only five centuries But also the leap into electronic typesetting, Remaining
